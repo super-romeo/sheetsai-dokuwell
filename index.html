@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="An AI add-on for Google Sheets, Docs and Slides: classify, extract, translate and write text for hundreds of spreadsheet rows in one run.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Cell Writer AI</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Cell Writer AI</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Put AI to work on hundreds of rows in Google Sheets — and in your Docs and Slides</h1>
-    <p class="sub">For marketers, analysts, shop owners and teams who work in Google Workspace: write an instruction once, run it over a whole column, and get product descriptions, categories, translations or extracted data in every row — plus drafting and rewriting in Docs and Slides.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For marketers, analysts, shop owners</p>
+      <h1 class="rise" style="--i:1" data-len="long">Put AI to work on hundreds of rows in Google Sheets&nbsp;<span class="soft">— and in your Docs and Slides</span></h1>
+      <p class="rise" style="--i:2">For marketers, analysts, shop owners and teams who work in Google Workspace: write an instruction once, run it over a whole column, and get product descriptions, categories, translations or extracted data in every row — plus drafting and rewriting in Docs and Slides.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="120" y="165" font-size="36" font-weight="600" fill="#0a1524">Google Sheets</text><line x1="80" y1="210" x2="1120" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="255" width="48" height="48" rx="8" fill="#12397a" /><rect x="200" y="267" width="260" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="350" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="362" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="445" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="457" width="220" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="540" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="552" width="300" height="24" rx="12" fill="#dde2ea" /><rect x="680" y="250" width="390" height="420" rx="20" fill="#dfe8f7" /><text x="710" y="325" font-size="30" font-weight="600" fill="#0a1524">whole column</text><rect x="720" y="370" width="190" height="42" rx="8" fill="#ffffff" /><rect x="930" y="370" width="110" height="42" rx="8" fill="#12397a" /><rect x="720" y="428" width="190" height="42" rx="8" fill="#ffffff" /><rect x="930" y="428" width="110" height="42" rx="8" fill="#12397a" /><rect x="720" y="486" width="190" height="42" rx="8" fill="#ffffff" /><rect x="930" y="486" width="110" height="42" rx="8" fill="#12397a" /><rect x="720" y="544" width="190" height="42" rx="8" fill="#ffffff" /><rect x="930" y="544" width="110" height="42" rx="8" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Marketers analysts shop owners</dd></div>
+      <div><dt>Runs</dt><dd>Over a whole column</dd></div>
+      <div><dt>Works</dt><dd>As a cell formula</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>AI as a formula</b><span>A cell formula with your instruction and the row's data.</span><br><a class="btn" href="price.html" data-ev="feature_formula">I need this</a></div>
-      <div class="card"><b>Whole columns at once</b><span>Run over hundreds or thousands of rows in one go.</span><br><a class="btn" href="price.html" data-ev="feature_bulk">I need this</a></div>
-      <div class="card"><b>Docs and Slides</b><span>Draft, rewrite, shorten or translate selected text.</span><br><a class="btn" href="price.html" data-ev="feature_docs">I need this</a></div>
-      <div class="card"><b>Choice of models</b><span>Pick the AI model that fits the task and the budget.</span><br><a class="btn" href="price.html" data-ev="feature_models">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">AI as a formula</text><rect x="130" y="205" width="40" height="40" rx="8" fill="#dfe8f7" /><rect x="190" y="213" width="280" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="273" width="40" height="40" rx="8" fill="#12397a" /><rect x="190" y="281" width="360" height="24" rx="12" fill="#b9c3d2" /><rect x="130" y="341" width="40" height="40" rx="8" fill="#dfe8f7" /><rect x="190" y="349" width="220" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="409" width="40" height="40" rx="8" fill="#dfe8f7" /><rect x="190" y="417" width="320" height="24" rx="12" fill="#dfe8f7" /></svg></div>
+        <h3>AI as a formula</h3><p>A cell formula with your instruction and the row's data.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_formula">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Whole columns at once</text><line x1="140" y1="470" x2="660" y2="470" stroke="#dde2ea" stroke-width="4" /><rect x="170" y="380" width="64" height="90" rx="8" fill="#dfe8f7" /><rect x="290" y="320" width="64" height="150" rx="8" fill="#dfe8f7" /><rect x="410" y="260" width="64" height="210" rx="8" fill="#12397a" /><rect x="530" y="350" width="64" height="120" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Whole columns at once</h3><p>Run over hundreds or thousands of rows in one go.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_bulk">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Docs and Slides</text><rect x="120" y="210" width="240" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><rect x="450" y="210" width="230" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><polygon points="385,330 430,305 430,355" fill="#12397a" /><rect x="148" y="260" width="160" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="260" width="160" height="18" rx="9" fill="#b9c3d2" /><rect x="148" y="318" width="130" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="318" width="130" height="18" rx="9" fill="#b9c3d2" /><rect x="148" y="376" width="170" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="376" width="170" height="18" rx="9" fill="#b9c3d2" /></svg></div>
+        <h3>Docs and Slides</h3><p>Draft, rewrite, shorten or translate selected text.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_docs">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Choice of models</text><line x1="130" y1="320" x2="670" y2="320" stroke="#dde2ea" stroke-width="4" /><rect x="150" y="294" width="140" height="52" rx="26" stroke="#dde2ea" stroke-width="2" fill="#ffffff" /><rect x="310" y="294" width="150" height="52" rx="26" fill="#dfe8f7" /><rect x="480" y="294" width="170" height="52" rx="26" fill="#12397a" /></svg></div>
+        <h3>Choice of models</h3><p>Pick the AI model that fits the task and the budget.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_models">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">An online shop has 900 products in a Google Sheet with names and short specs. The owner writes one instruction — a two-sentence description in a friendly tone, plus a category from a fixed list — and runs it over the column. In a few minutes every row has a description and a category; the owner checks a sample, fixes ten rows by hand and copies the rest into the shop.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>An online shop has 900 products in a Google Sheet with names and short specs. The owner writes one instruction — a two-sentence description in a friendly tone, plus a category from a fixed list — and runs it over the column. In a few minutes every row has a description and a category; the owner checks a sample, fixes ten rows by hand and copies the rest into the shop.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><rect x="120" y="240" width="960" height="480" rx="24" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="170" y="320" font-size="36" font-weight="600" fill="#0a1524">Example</text><text x="170" y="410" font-size="32" fill="#566174">900 products</text><text x="170" y="490" font-size="32" fill="#566174">one instruction</text><text x="170" y="570" font-size="32" fill="#566174">every row</text><text x="170" y="650" font-size="32" fill="#566174">a category</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>A lot of everyday work happens in spreadsheets: product lists for an online shop, survey answers, lead lists, keyword lists, support tickets exported from a helpdesk. Much of it is text that needs to be sorted, cleaned, summarised, translated or written from scratch, row after row.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>A lot of everyday work happens in spreadsheets: product lists for an online shop, survey answers, lead lists, keyword lists, support tickets exported from a helpdesk. Much of it is text that needs to be sorted, cleaned, summarised, translated or written from scratch, row after row.</p>
     <p>Chat assistants can do this kind of work well, but not in bulk. People paste rows into a chat window a few at a time, copy the answers back, and lose track of which rows are done. Built-in AI features in office suites help with single cells, but they come with limits on how many cells can be processed in one run and depend on the plan the account is on.</p>
     <p>The add-on brings AI models into Google Sheets, Docs and Slides. In Sheets you write an instruction once — for example, a category from a list, the company name from an email signature, or a translation into Spanish — and apply it to a whole column.</p>
     <p>It works as a cell formula, so the instruction can refer to other cells in the row, or as a bulk action that fills a column and keeps the results as plain values. Long lists are processed in the background, and rows that failed can be run again without repeating the rest.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Instructions can be saved and reused, so a team can keep its own set: the house style for product texts, the list of categories for tickets, the fields to pull out of an inquiry. Anyone on the team runs the same instruction on a new list and gets results in the same format as last time.</p>
     <p>The service is in preparation: we are checking whether Google Workspace users need it before it is built.</p>
     <p>AI answers can be wrong. The add-on writes results into your files, and checking them before use stays with you.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>People and small teams who work in Google Sheets, Docs and Slides and want AI to process lists and text in bulk.</p>
-    <h3>How many rows can I process at once?</h3>
-    <p>Hundreds or thousands — a whole column in one run, processed in the background.</p>
-    <h3>Does it work in Docs and Slides too?</h3>
-    <p>Yes: draft, rewrite, shorten, change tone or translate selected text.</p>
-    <h3>Are the results always correct?</h3>
-    <p>No. AI answers can be wrong, so check a sample before using the results.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether Google Workspace users need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>People and small teams who work in Google Sheets, Docs and Slides and want AI to process lists and text in bulk.</p></div>
+      <div class="split flip"><h3>How many rows can I process at once?</h3><p>Hundreds or thousands — a whole column in one run, processed in the background.</p></div>
+      <div class="split flip"><h3>Does it work in Docs and Slides too?</h3><p>Yes: draft, rewrite, shorten, change tone or translate selected text.</p></div>
+      <div class="split flip"><h3>Are the results always correct?</h3><p>No. AI answers can be wrong, so check a sample before using the results.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether Google Workspace users need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Run your first column</h2>
-    <p><label>Rows you process with AI per month<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 500</option><option>500–5,000</option><option>5,000–50,000</option><option>More than 50,000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Run your first column</h2>
+    </div>
+    <div class="tile stack">
+      <label>Rows you process with AI per month<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 500</option><option>500–5,000</option><option>5,000–50,000</option><option>More than 50,000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Cell Writer AI</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">AI add-on for Google Sheets, Docs and Slides. AI answers can be wrong; checking results stays with the user.</p>
+  <p>AI add-on for Google Sheets, Docs and Slides. AI answers can be wrong; checking results stays with the user.</p>
 </div></footer>
 
 </body>
